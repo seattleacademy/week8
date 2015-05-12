@@ -1,0 +1,3 @@
+
+  intent: { name: 'choice', slots: { Choice: [Object] } } }
+from post {"version":"1.0","response":{"outputSpeech":{"type":"PlainText","text":"How long have you gone without showering?"},"shouldEndSession":"true","card":{"type":"PlainText","title":"Truth or Dare","subtitle":"truth","content":"How long have you gone without showering?"}}}
