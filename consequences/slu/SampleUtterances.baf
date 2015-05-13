@@ -1,0 +1,20 @@
+choice I want a {reward|Choice}
+choice I want a {punishment|Choice}
+choice I want a {compliment|Choice}
+choice I want an {insult|Choice}
+choice {reward|Choice}
+choice {punishment|Choice}
+choice {compliment|Choice}
+choice {insult|Choice}
+choice select {reward|Choice}
+choice select {punishment|Choice}
+choice select {compliment|Choice}
+choice select {insult|Choice}
+choice please give me a {reward|Choice}
+choice please give me a {punishment|Choice}
+choice please give me a {compliment|Choice}
+choice please give me a {insult|Choice}
+choice how about a {reward|Choice}
+choice how about a {punishment|Choice}
+choice how about a {compliment|Choice}
+choice how about a {insult|Choice}
