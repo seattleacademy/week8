@@ -1,0 +1,14 @@
+choice I want a {physical|Choice}
+choice I want a {mental|Choice}
+choice I want a {physical challenge|Choice}
+choice I want a {mental challenge|Choice}
+choice select {physical|Choice}
+choice select {mental|Choice}
+choice select {one|Choice}
+choice select {one two|Choice}
+choice select {one two three|Choice}
+choice {one|Choice}
+choice {one two three|Choice}
+choice {one two three|Choice}
+choice {yes|Choice}
+choice {no|Choice}
