@@ -15,13 +15,20 @@ rest.get(stopurl).on('complete', function(data) {
     //console.dir(data,{depth:5})
     console.dir(data,{depth:5})
     //See http://stackoverflow.com/questions/4673527/converting-milliseconds-to-a-date-jquery-js
-    console.log(data.currentTime); // auto convert to object 
-    console.dir(data.data.entry.arrivalsAndDepartures.predictedArrivalTime,{depth:5});
+    
+    //console.log("current time" + data.currentTime); // auto convert to object 
+    //console.dir(data.data.entry.arrivalsAndDepartures[0].predictedArrivalTime,{depth:5});
+    //predictedArrivalTime = data.data.entry.arrivalsAndDepartures[0].predictedArrivalTime,{depth:5};
+    //console.log("predicted" + predictedArrivalTime);
+    
+    console.log("stops away:" + data.data.entry.arrivalsAndDepartures[0].numberOfStopsAway);
+    numberOfStopsAway = data.data.entry.arrivalsAndDepartures[0].numberOfStopsAway;
 
-var date = new Date(data.currentTime);
-hour = date.getHours();
-minute = date.getMinutes();
-time = hour + ":" + minute;
-console.log(time.toString());
+//var date = new Date(predictedArrivalTime - data.currentTime);
+//console.log(predictedArrivalTime - data.currentTime);
+//hour = date.getHours();
+//minute = date.getMinutes();
+//time = hour + ":" + minute;
+//console.log("arrival" + time.toString());
 });
 
