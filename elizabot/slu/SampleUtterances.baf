@@ -1,0 +1,10 @@
+choice {goodbye|Choice}
+choice {I am|Choice}
+choice {I am tired|Choice}
+choice {I am tired today|Choice}
+choice {I am tired today but|Choice}
+choice {I am tired today but will|Choice}
+choice {I am tired today but will work |Choice}
+choice {I am tired today but will work on|Choice}
+choice {I am tired today but will work on getting|Choice}
+choice {I am tired today but will work on getting better.|Choice}
